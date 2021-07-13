@@ -1,6 +1,8 @@
 # mysql-utils
 A repo with utils regarding MySQL
 
+## Windows
+
 >install chocolatey windows package manager from https://chocolatey.org/install
 
 open the PowerShell as Admin
