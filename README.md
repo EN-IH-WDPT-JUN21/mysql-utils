@@ -14,5 +14,6 @@ Open the PowerShell as Admin
 your connection data will be: 
 - user = 'root'
 - psq = ''
+
 3.To install MySQL-WorkBench
 >choco install mysql.workbench
