@@ -40,7 +40,7 @@ your connection data will be:
 6. The process to install MySQL Workbench is to drag and drop it into your apps folder. After that you should be able to run it.
 
 
-##Usefull commands
+## Usefull commands
 
 to create a new user
 >CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
