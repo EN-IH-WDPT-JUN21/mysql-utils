@@ -36,6 +36,6 @@ your connection data will be:
 >mysql_secure_installation
 
 5. Download MySQL Workbench from the follwing link: https://dev.mysql.com/downloads/workbench/
-6. 
-7. The process to install MySQL Workbench is to drag and drop it into your apps folder. After that you should be able to run it.
+
+6. The process to install MySQL Workbench is to drag and drop it into your apps folder. After that you should be able to run it.
 
