@@ -17,3 +17,25 @@ your connection data will be:
 
 3.To install MySQL-WorkBench
 >choco install mysql.workbench
+
+## Mac OS
+
+1. Make sure you have installed brew, if not, run the following command and follow the instructions:
+
+>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+2. Run the following command to instal MySql
+
+>brew install mysql
+
+3. Start MySQL service: 
+>brew services start mysql
+
+4. Additionaly you can run the following command to enable security features and setup a password:
+
+>mysql_secure_installation
+
+5. Download MySQL Workbench from the follwing link: https://dev.mysql.com/downloads/workbench/
+6. 
+7. The process to install MySQL Workbench is to drag and drop it into your apps folder. After that you should be able to run it.
+
