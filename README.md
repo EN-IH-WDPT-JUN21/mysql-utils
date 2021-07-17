@@ -52,3 +52,14 @@ Create a new user and give it powers
 
 to delete a user
 >DROP USER 'username'@'localhost';
+
+
+## Example of Spring config 
+
+spring.datasource.url=jdbc:mysql://localhost:3306/test
+spring.datasource.username=fruit-tester
+spring.datasource.password=fruit-tester123
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+spring.jpa.hibernate.ddl-auto=create
+spring.jpa.show-sql=true
