@@ -42,11 +42,11 @@ your connection data will be:
 
 ## Usefull commands
 
-to create a new user
->CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
+CREATE USER 'ironhacker'@'localhost' IDENTIFIED BY '1r0nh4ck3r';
 
-to give it POWERS
->GRANT ALL PRIVILEGES ON *.* TO 'database_user'@'localhost';
+GRANT ALL PRIVILEGES ON *.* TO 'ironhacker'@'localhost';
+
+FLUSH PRIVILEGES;
 
 to delete a user
 >DROP USER 'username'@'localhost';
