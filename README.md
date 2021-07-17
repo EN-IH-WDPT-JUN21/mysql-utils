@@ -42,11 +42,13 @@ your connection data will be:
 
 ## Usefull commands
 
-CREATE USER 'ironhacker'@'localhost' IDENTIFIED BY '1r0nh4ck3r';
+Create a new user and give it powers
 
-GRANT ALL PRIVILEGES ON *.* TO 'ironhacker'@'localhost';
+>CREATE USER 'ironhacker'@'localhost' IDENTIFIED BY '1r0nh4ck3r';
 
-FLUSH PRIVILEGES;
+>GRANT ALL PRIVILEGES ON *.* TO 'ironhacker'@'localhost';
+
+>FLUSH PRIVILEGES;
 
 to delete a user
 >DROP USER 'username'@'localhost';
