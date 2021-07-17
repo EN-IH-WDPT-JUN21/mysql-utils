@@ -56,10 +56,10 @@ to delete a user
 
 ## Example of Spring config 
 
-spring.datasource.url=jdbc:mysql://localhost:3306/test
-spring.datasource.username=
-spring.datasource.password=
-spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+>spring.datasource.url=jdbc:mysql://localhost:3306/test
+>spring.datasource.username=
+>spring.datasource.password=
+>spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 
 spring.jpa.hibernate.ddl-auto=create
 spring.jpa.show-sql=true
