@@ -63,3 +63,6 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 
 spring.jpa.hibernate.ddl-auto=create
 spring.jpa.show-sql=true
+
+
+spring init --dependencies=data-jpa,jdbc,mysql,lombok jpa-fruit-demo
