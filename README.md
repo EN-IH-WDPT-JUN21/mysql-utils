@@ -51,7 +51,7 @@ Create a new user and give it powers
 >FLUSH PRIVILEGES;
 
 to delete a user
->DROP USER 'username'@'localhost';
+>DROP USER 'ironhacker'@'localhost';
 
 
 ## Example of Spring config 
